@@ -15,7 +15,7 @@ if (require('electron-squirrel-startup')) {
 
 const store = new Store();
 
-store.set('unicorn', '🦄');
+store.set('unicorn', 'This is a electron-store test 🦄');
 console.log(store.get('unicorn'));
 
 const createWindow = (): void => {
